@@ -26,6 +26,6 @@ customAdd(
 customAdd(
     20,
     30
-) { (lhs, rhs) -> Int in
+) { (lhs, rhs) in
         lhs + rhs
 }
