@@ -36,3 +36,13 @@ func customMinus(
 
 let customSubtracted = customMinus(20, 10)
  
+@discardableResult
+func myCustomAdd(
+    _ lhs: Int,
+    _ rhs: Int
+) -> Int {
+    lhs + rhs
+}
+
+myCustomAdd(20, 30)
+
