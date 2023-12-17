@@ -46,3 +46,13 @@ func myCustomAdd(
 
 myCustomAdd(20, 30)
 
+func doSomethingComplicated(
+    with value: Int
+) -> Int {
+    func mainLogic(value: Int) -> Int{
+        value + 2
+    }
+    
+    return mainLogic(value: value + 30)
+}
+doSomethingComplicated(with: 30)
