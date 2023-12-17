@@ -27,3 +27,12 @@ func CustomAdd(
 
 let customAdded = CustomAdd(value1: 10, value2: 20)
 
+func customMinus(
+    _ lhs:Int,
+    _ rhs:Int
+) -> Int {
+    return lhs - rhs
+}
+
+let customSubtracted = customMinus(20, 10)
+ 
