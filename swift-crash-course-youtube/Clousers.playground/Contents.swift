@@ -29,3 +29,5 @@ customAdd(
 ) { (lhs, rhs) in
         lhs + rhs
 }
+
+constomAdd(20, 30) { $0 + $1 }
