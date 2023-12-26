@@ -65,6 +65,14 @@ if case let .song(_, songName) = withoutYou {
 enum Vehicle {
     case car(manufacturer: String, model: String)
     case bike(manugacturer: String, yearMade: Int)
+    func getManufacturer() -> String {
+        switch self {
+        case let .car(manufacturer, _):
+            return manufacturer
+        case let .bike(manufacturer, _):
+            return manufacturer
+        }
+    }
 }
 
 let car = Vehicle.car(
@@ -91,3 +99,6 @@ case let .bike(manufacturer, _):
     manufacturer
     break
 }
+
+
+bike.getManufacturer()
