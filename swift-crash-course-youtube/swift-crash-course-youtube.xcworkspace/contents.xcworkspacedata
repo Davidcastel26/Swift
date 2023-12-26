@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Enumerations.playground">
+   </FileRef>
+   <FileRef
+      location = "group:structure.playground">
+   </FileRef>
+   <FileRef
       location = "group:Clousers.playground">
    </FileRef>
    <FileRef
