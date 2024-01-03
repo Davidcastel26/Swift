@@ -102,3 +102,12 @@ case let .bike(manufacturer, _):
 
 
 bike.getManufacturer()
+
+
+enum FamilyMember: String {
+    case father = "dad"
+    case mother = "mom"
+    case sister = "sis"
+}
+
+FamilyMember.father.rawValue
